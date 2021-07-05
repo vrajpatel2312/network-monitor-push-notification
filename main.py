@@ -13,7 +13,7 @@ del results['stats']
 hosts=results.keys()
 print(hosts)
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '9OLWxND4o83j4K4iuopO'
+app.config['SECRET_KEY'] = '___Add YOUR KEY___'
 
 DER_BASE64_ENCODED_PRIVATE_KEY_FILE_PATH = os.path.join(os.getcwd(),"private_key.txt")
 DER_BASE64_ENCODED_PUBLIC_KEY_FILE_PATH = os.path.join(os.getcwd(),"public_key.txt")
